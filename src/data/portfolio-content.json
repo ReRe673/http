@@ -1,0 +1,2343 @@
+{
+  "source": "杨静熙_游戏交互设计师&UE策划_作品集.pptx",
+  "slideCount": 36,
+  "mediaCount": 107,
+  "slides": [
+    {
+      "number": 1,
+      "group": "cover",
+      "textBlocks": [
+        "ort",
+        "folio",
+        "「交互」作品集",
+        "@创作者 ——— 杨静熙",
+        "< Design >",
+        "My love for the design industry goes beyond just creating visuals — it's about telling stories through colors, shapes, and emotions.",
+        "< Creativity >",
+        "I am passionate about the design industry, and I enjoy creating all kinds of beautiful and joyful visuals",
+        "Hand-drawn Artwork",
+        "Graphic Works",
+        "Photographic Works"
+      ],
+      "media": [
+        "image1.png",
+        "image2.png",
+        "image3.png",
+        "image4.svg",
+        "image5.png",
+        "image6.png",
+        "image7.svg",
+        "image8.png",
+        "image9.svg",
+        "image10.png",
+        "image11.svg",
+        "image12.png",
+        "image13.svg",
+        "image14.png",
+        "image15.png",
+        "image16.png",
+        "image17.png",
+        "image18.svg"
+      ],
+      "render": "/slides/slide-1.png"
+    },
+    {
+      "number": 2,
+      "group": "profile",
+      "textBlocks": [
+        "个人简介",
+        "Personal Profile",
+        "01",
+        "bout me",
+        "求职意向：游戏交互设计师 /UE策划实习经历：网易雷火祝融｜交互设计实习生 核心技能：Figma | Photoshop | AI | Unity | scaleform | flash能力方向：情感化设计 | 项目协作、交互文档落地"
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image21.png",
+        "image10.png",
+        "image11.svg",
+        "image22.jpeg"
+      ],
+      "render": "/slides/slide-2.png"
+    },
+    {
+      "number": 3,
+      "group": "profile",
+      "textBlocks": [
+        "个人简介",
+        "交互练习项目",
+        "Personal Profile",
+        "UX Practice",
+        "01",
+        "02",
+        "上线实战项目",
+        "Game Projects",
+        "03",
+        "其他设计实践",
+        "Additional Works",
+        "04",
+        "<Contents>",
+        "Hand-drawn Artwork",
+        "Graphic Works",
+        "Photographic Works"
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image23.png",
+        "image24.svg",
+        "image12.png",
+        "image13.svg",
+        "image14.png",
+        "image15.png",
+        "image16.png"
+      ],
+      "render": "/slides/slide-3.png"
+    },
+    {
+      "number": 4,
+      "group": "journal",
+      "textBlocks": [
+        "Hand-drawn Artwork",
+        "Graphic Works",
+        "Photographic Works",
+        "0",
+        "1",
+        "练习项目",
+        "恋与深空｜手账系统交互优化",
+        "one",
+        "I am passionate about the design industry, and I enjoy creating all kinds of beautiful and joyful visuals"
+      ],
+      "media": [
+        "image1.png",
+        "image12.png",
+        "image13.svg",
+        "image14.png",
+        "image15.png",
+        "image16.png",
+        "image25.png",
+        "image3.png",
+        "image4.svg",
+        "image26.png",
+        "image27.svg",
+        "image17.png",
+        "image18.svg",
+        "image10.png",
+        "image11.svg"
+      ],
+      "render": "/slides/slide-4.png"
+    },
+    {
+      "number": 5,
+      "group": "journal",
+      "textBlocks": [
+        "项目分析框架",
+        "Hand-drawn Artwork",
+        "01",
+        "女性向恋爱养成手游",
+        "游戏类型",
+        "喜欢剧情记录、角色陪伴、收藏表达的玩家",
+        "核心用户",
+        "玩家表达自我 + 保存角色回忆的情感空间",
+        "系统定位",
+        "体验目标",
+        "降低创作门槛→提升创作完成率→强化角色陪伴→促进分享传播"
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image28.png",
+        "image29.png",
+        "image30.png"
+      ],
+      "render": "/slides/slide-5.png"
+    },
+    {
+      "number": 6,
+      "group": "journal",
+      "textBlocks": [
+        "为什么要优化手账？",
+        "Personal Profile",
+        "02",
+        "用户行为观察",
+        "项目痛点",
+        "设计目标",
+        "手账是玩家记录剧情情绪、留存男主回忆的核心系统，但原版偏向工具编辑器，创作启动难度高、体验生硬，乙女陪伴感缺失",
+        "降低创作启动成本 → 提升操作流畅度 → 增加创作过程中的安全感与情感反馈",
+        "空白画布 + 选项过多家需要从版式、素材到内容全部自行决定，容易陷入“不知道从哪里开始”的状态",
+        "从 0 到 1困难",
+        "移动 / 缩放 / 旋转 / 删除操作繁琐组件调整需要多步操作，容易打断连续创作",
+        "创作过程被打断",
+        "担心作品丢失 + 男主参与感不足闪退、误操作可能导致创作成果丢失创作完成后缺少角色对作品的回应",
+        "缺乏反馈与情感回应",
+        "*01",
+        "*02",
+        "*03"
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image31.jpeg"
+      ],
+      "render": "/slides/slide-6.png"
+    },
+    {
+      "number": 7,
+      "group": "journal",
+      "textBlocks": [
+        "虽然系统提供素材和预设装饰，但玩家仍需要同时决定：创作形式，页面布局，素材组合导致玩家在“想记录回忆”和“开始制作手账”之间产生距离",
+        "乙女手账的核心不是完成设计作品，而是记录玩家与角色之间的故事。保留玩家自主表达空间，但提供一个轻量的创作边界",
+        "不是替代已有预设，而是在创作入口增加一个更轻量的表达层，通过明信片、票根、便利贴等载体限定创作边界，让玩家能够保留个人设计空间，同时降低面对空白画布时的不确定感",
+        "问题｜从 0 开始的创作压力",
+        "思考：",
+        "Before：点击新建直接进入空白画布→玩家决定所有内容",
+        "After：玩家从已有载体开始创作",
+        "解决｜预设轻量化载体",
+        "01创作入口优化：从空白画布到表达载体",
+        "03"
+      ],
+      "media": [
+        "image1.png",
+        "image31.jpeg",
+        "image32.png",
+        "image33.png",
+        "image10.png",
+        "image11.svg",
+        "image19.png",
+        "image20.svg",
+        "image34.png",
+        "image35.png",
+        "image36.png"
+      ],
+      "render": "/slides/slide-7.png"
+    },
+    {
+      "number": 8,
+      "group": "journal",
+      "textBlocks": [
+        "手账创作往往先确定整体视觉方向，再寻找组成它的素材，因此将“风格”前置，为玩家提供更符合创作意图的检索路径",
+        "新增“风格创作”入口(双入口)：先选择清晰、可爱、复古等已有标签，再在对应风格下选择图形、文字、胶带等素材一次确定风格，多类型素材直接复用，减少跨素材类型的重复筛选",
+        "原有流程以素材类型为第一层分类，玩家若希望保持统一风格，需要在不同素材类型间重复选择相同标签",
+        "01.1从素材检索到创作意图驱动",
+        "Personal Profile",
+        "02",
+        "问题:",
+        "思考：",
+        "解决：",
+        "before→素材类型 → 风格标签 → 单类素材筛选",
+        "after→创作风格（风格标签） → 多类型素材组合",
+        "Before：",
+        "Before：",
+        "After：",
+        "After："
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image37.png",
+        "image31.jpeg",
+        "image29.png",
+        "image38.png",
+        "image10.png",
+        "image11.svg",
+        "image39.png",
+        "image40.png"
+      ],
+      "render": "/slides/slide-8.png"
+    },
+    {
+      "number": 9,
+      "group": "journal",
+      "textBlocks": [
+        "删除操作需抬手点击删除，打断创作流组件旋转 / 缩放仅能通过右下控制点，操作不灵活，精准度要求高",
+        "精简编辑操作链路：优化贴纸缩放，将删除功能从固定按钮转移至拖拽路径中，减少点击步骤，贴合移动端创作习惯",
+        "保持素材操作状态连续性，将删除行为融入拖拽操作链路，减少模式切换基于移动端直接操作习惯，减少编辑过程中的模式切换",
+        "02连续创作体验优化",
+        "Personal Profile",
+        "02",
+        "问题：",
+        "解决：",
+        "思考：",
+        "摆放中",
+        "Before：",
+        "After：",
+        "拖动↓点击↓删除",
+        "拖动↓拖入删除区域"
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image31.jpeg",
+        "image41.png",
+        "image42.png",
+        "image43.png",
+        "image44.jpeg",
+        "image10.png",
+        "image11.svg"
+      ],
+      "render": "/slides/slide-9.png"
+    },
+    {
+      "number": 10,
+      "group": "journal",
+      "textBlocks": [
+        "创作过程中玩家无法确认当前保存状态，面对闪退、误操作等情况容易产生内容丢失焦虑，降低创作安全感",
+        "增加轻量保存状态反馈，提示当前内容已保存/同步状态，让玩家明确作品处于安全状态",
+        "创作安全感不仅来自自动保存功能，更来自用户对当前状态的可感知与确认需要降低玩家对“内容丢失”的不确定感，让创作过程始终处于可控状态",
+        "03创作状态可感知化",
+        "Personal Profile",
+        "02",
+        "问题：",
+        "解决：",
+        "思考：",
+        "Before：",
+        "After：",
+        "闪退返回游戏后：",
+        "功能层：自动保存情绪层：持续反馈",
+        "用户不知道：“我现在保存了吗？”",
+        "底部提示：“已自动保存”“正在备份”"
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image31.jpeg",
+        "image45.png",
+        "image46.png",
+        "image47.png",
+        "image48.png",
+        "image49.jpeg"
+      ],
+      "render": "/slides/slide-10.png"
+    },
+    {
+      "number": 11,
+      "group": "journal",
+      "textBlocks": [
+        "当前手账主要停留在“完成作品”，玩家完成创作后缺少角色参与和情感反馈",
+        "已有素材标签",
+        "顶部空白处可以增加小对话",
+        "已有男主小互动玩法（系统识别玩家操作从而弹出对应男主对话）",
+        "创作行为标签识别记录玩家使用的高频素材，匹配角色专属回应低频陪伴彩蛋触发根据创作行为随机解锁小对话互动，增强惊喜感个性化分享反馈依据作品标签生成差异剧情，提升收藏与分享欲",
+        "乙女游戏中的创作行为不仅是内容生产，也是玩家与角色建立联系的过程",
+        "03让角色感知玩家表达",
+        "02",
+        "问题：",
+        "解决：",
+        "思考：",
+        "玩家制作手账↓ 玩家完成手账",
+        "玩家创作行为标签化↓系统理解玩家表达偏好↓触发个性化角色回应↓形成持续陪伴关系",
+        "Before：",
+        "After：",
+        "Personal Profile"
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image31.jpeg",
+        "image44.jpeg",
+        "image50.png",
+        "image51.png",
+        "image52.png"
+      ],
+      "render": "/slides/slide-11.png"
+    },
+    {
+      "number": 12,
+      "group": "journal",
+      "textBlocks": [
+        "项目复盘",
+        "Personal Profile",
+        "03",
+        "新增模板体系降低创作门槛，精简操作链路，补齐保存状态反馈，解决核心体验痛点",
+        "交互体验",
+        "Personal Profile",
+        "搭建标签智能识别互动体系，实现专属男主陪伴，弱化工具感，强化乙女核心体验",
+        "情感体验",
+        "差异化剧场剧情，有效提升玩家创作粘性与社交分享意愿",
+        "商业价值",
+        "*01",
+        "*02",
+        "*03",
+        "通过降低创作门槛、优化编辑效率、建立角色反馈机制，将手账从“内容编辑工具”转变为“玩家与角色交流的情感空间”",
+        "我的设计价值:"
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image53.png",
+        "image54.svg",
+        "image55.png",
+        "image56.svg",
+        "image31.jpeg"
+      ],
+      "render": "/slides/slide-12.png"
+    },
+    {
+      "number": 13,
+      "group": "equipment",
+      "textBlocks": [
+        "Hand-drawn Artwork",
+        "Graphic Works",
+        "Photographic Works",
+        "0",
+        "2",
+        "练习项目",
+        "养成全链路交互设计练习",
+        "two",
+        "I am passionate about the design industry, and I enjoy creating all kinds of beautiful and joyful visuals"
+      ],
+      "media": [
+        "image1.png",
+        "image12.png",
+        "image13.svg",
+        "image14.png",
+        "image15.png",
+        "image16.png",
+        "image25.png",
+        "image3.png",
+        "image4.svg",
+        "image26.png",
+        "image27.svg",
+        "image17.png",
+        "image18.svg",
+        "image10.png",
+        "image11.svg"
+      ],
+      "render": "/slides/slide-13.png"
+    },
+    {
+      "number": 14,
+      "group": "equipment",
+      "textBlocks": [
+        "玩家不知道：如何提高成功率材料如何组合设计目标：建立可理解的锻造决策反馈",
+        "装备获取随机性",
+        "Personal Profile",
+        "问题：玩家拥有大量装备：哪件值得升级？哪些可以作为材料？设计目标：降低筛选成本，提高成长效率",
+        "装备成长路径复杂",
+        "问题：装备只是列表。设计目标：强化角色养成感，让装备与战姬产生关联",
+        "角色装备关系弱",
+        "*01",
+        "*02",
+        "*03",
+        "设计目标",
+        "Personal Profile",
+        "01",
+        "自拟设计命题",
+        "通过装备锻造 → 精炼 → 穿戴的完整链路，为玩家提供清晰的战力成长路径，提升养成深度与长期留存"
+      ],
+      "media": [
+        "image1.png",
+        "image53.png",
+        "image54.svg",
+        "image55.png",
+        "image56.svg",
+        "image19.png",
+        "image20.svg",
+        "image31.jpeg"
+      ],
+      "render": "/slides/slide-14.png"
+    },
+    {
+      "number": 15,
+      "group": "equipment",
+      "textBlocks": [
+        "三条独立流程：锻造 / 精炼 / 穿戴",
+        "任务流程",
+        "Personal Profile",
+        "02",
+        "覆盖资源不足、锻造成功 / 失败、锻造保底完整分支",
+        "覆盖资源校验、升级成功 / 失败异常",
+        "包含套装羁绊触发分支判断",
+        "材料返还"
+      ],
+      "media": [
+        "image31.jpeg",
+        "image57.png",
+        "image58.png",
+        "image19.png",
+        "image20.svg",
+        "image59.png"
+      ],
+      "render": "/slides/slide-15.png"
+    },
+    {
+      "number": 16,
+      "group": "equipment",
+      "textBlocks": [
+        "养成全链路：锻造 → 精炼 → 穿戴",
+        "Personal Profile",
+        "03",
+        "锻造｜获得装备资源选择 → 锻造 → 结果反馈",
+        "围绕“操作效率、资源管理、状态反馈、异常处理”四个核心问题，优化装备养成全链路",
+        "精炼｜提升属性装备选择 → 资源选择 → 属性预览",
+        "穿戴｜配置角色部位选择 → 装备配置 → 羁绊触发(成套装)"
+      ],
+      "media": [
+        "image19.png",
+        "image20.svg",
+        "image60.png",
+        "image61.png",
+        "image62.png",
+        "image63.png",
+        "image64.png",
+        "image8.png",
+        "image9.svg",
+        "image65.png"
+      ],
+      "render": "/slides/slide-16.png"
+    },
+    {
+      "number": 17,
+      "group": "equipment",
+      "textBlocks": [
+        "操作路径优化：让高频操作更短",
+        "Personal Profile",
+        "03",
+        "适配移动端横版操作，高频确认操作放置屏幕右下角热区，保障单手操作可达",
+        "锻造/精炼/穿戴属同一升级链路。左侧设快捷导航栏，支持三模块快速切换，保持升级心流不中断",
+        "2",
+        "1",
+        "3",
+        "资源选择采用下拉抽屉式分类，缩短查找路径；选中升级框自动弹出对应至右侧资源框，减少手动拖拽步骤",
+        "4",
+        "升级条可通过玩家滑动预览心选级数，下面材料框会自动计算所需资源",
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "media": [
+        "image19.png",
+        "image20.svg",
+        "image64.png",
+        "image66.png",
+        "image60.png"
+      ],
+      "render": "/slides/slide-17.png"
+    },
+    {
+      "number": 18,
+      "group": "equipment",
+      "textBlocks": [
+        "资源管理：降低选择与决策成本",
+        "Personal Profile",
+        "03",
+        "直观展示目前所消耗的资源，比如红色等级进度条为当前投入材料后的级数预览，也可以拖拽进度条直接看目标级数的所需材料以及底部轻量提示可选资源上限",
+        "4",
+        "2",
+        "智能筛选自动匹配最优资源，降低新手理解成本与决策门槛",
+        "1",
+        "右下角以颜色标签区分装备类型，降低识别成本；分类栏保留类型筛选入口，支持快速定位",
+        "3",
+        "支持一键清空，提升资源管理效率",
+        "4",
+        "4",
+        "1",
+        "3",
+        "2",
+        "清空"
+      ],
+      "media": [
+        "image19.png",
+        "image20.svg",
+        "image64.png",
+        "image67.png"
+      ],
+      "render": "/slides/slide-18.png"
+    },
+    {
+      "number": 19,
+      "group": "equipment",
+      "textBlocks": [
+        "1",
+        "1",
+        "2",
+        "3",
+        "4",
+        "2",
+        "3",
+        "4",
+        "4",
+        "锻造过程支持跳过；成功后弹出结算弹窗，明确展示所获道具，并且可以一键分享",
+        "单次最多产出3件道具，通过翻页符号与底部分页器提示可切换查看",
+        "装备品质通过信息条底板颜色区分，高稀有度装备以对应品质色高亮",
+        "锻造过程类比抽卡机制，结合星际世界观，以“观星”仪式承载揭晓过程：白色圆象征望远镜，圆内出现物品即成功，空圆即失败",
+        "状态反馈：让每一步操作都有结果",
+        "Personal Profile",
+        "03"
+      ],
+      "media": [
+        "image68.png",
+        "image69.png",
+        "image70.png",
+        "image71.png",
+        "image72.png",
+        "image19.png",
+        "image20.svg"
+      ],
+      "render": "/slides/slide-19.png"
+    },
+    {
+      "number": 20,
+      "group": "equipment",
+      "textBlocks": [
+        "1",
+        "2",
+        "3",
+        "3",
+        "1",
+        "2",
+        "2",
+        "状态反馈：让每一步操作都有结果",
+        "Personal Profile",
+        "03",
+        "参考抽卡轮换机制，仅展示武器轮廓，结果揭晓后呈现完整立绘，强化随机感与期待感底部分页器（四个点）提醒玩家武器轮廓是轮换状态的",
+        "用亮色数字以及底部轻量提示直观展示玩家当前所选数量，选中的资源加深边框告知玩家当前所选和已选",
+        "加入历史锻造材料配比记录，方便玩家查看锻造成功的材料配比，以便分享交流（有点类似阴阳师的符咒抽卡，玩家会分享自己的高爆率符咒）"
+      ],
+      "media": [
+        "image19.png",
+        "image20.svg",
+        "image65.png",
+        "image73.png"
+      ],
+      "render": "/slides/slide-20.png"
+    },
+    {
+      "number": 21,
+      "group": "equipment",
+      "textBlocks": [
+        "1",
+        "3",
+        "2",
+        "1",
+        "2",
+        "3",
+        "1",
+        "风险控制：减少误触与高价值操作失误",
+        "Personal Profile",
+        "03",
+        "锻造保底机制设计：锻造失败则增加保底值以及返还部分材料争取下次成功，降低挫败感",
+        "贵重资源加锁防误触，以及二次确认",
+        "资源不足时提供快捷获取入口，避免流程中断"
+      ],
+      "media": [
+        "image19.png",
+        "image20.svg",
+        "image74.png",
+        "image75.png",
+        "image76.png",
+        "image77.png",
+        "image78.png",
+        "image79.png"
+      ],
+      "render": "/slides/slide-21.png"
+    },
+    {
+      "number": 22,
+      "group": "equipment",
+      "textBlocks": [
+        "空间管理：操作效率与视觉展示的平衡",
+        "Personal Profile",
+        "03",
+        "1",
+        "左侧导航栏支持隐藏，释放立绘展示空间，聚焦核心内容；  装备选择栏支持点击/拖拽展开，兼顾主视觉空间",
+        "2",
+        "资源选择栏支持拖拽调整尺寸：展开后面积增大，便于精细筛选；收起后保持紧凑，适配快捷操作",
+        "3",
+        "资源栏位置权衡：方案A不遮挡立绘但需按钮（一键放入）换位，方案B轻微遮挡立绘但按钮位置固定。升级时玩家更关注数值，而不是立绘，故选方案B——以固定操作位置换认知一致",
+        "2",
+        "1",
+        "3",
+        "2",
+        "3",
+        "A",
+        "B"
+      ],
+      "media": [
+        "image19.png",
+        "image20.svg",
+        "image80.png",
+        "image81.png",
+        "image82.png",
+        "image67.png"
+      ],
+      "render": "/slides/slide-22.png"
+    },
+    {
+      "number": 23,
+      "group": "equipment",
+      "textBlocks": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "6",
+        "2",
+        "3",
+        "3",
+        "5",
+        "6",
+        "5",
+        "2",
+        "全局预览时隐藏装备选择栏；进入局部穿戴时，自动弹出对应部位（武器/饰品/防具）的选择栏",
+        "当玩家装备成套装时会触发额外羁绊技能",
+        "三类装备对应不同部位，沿用统一颜色编码；点击立绘部位直接进入对应穿戴",
+        "单部位最多穿戴2件，以同色示意可搭配两套同类型装备",
+        "虚线指未穿戴，实线为已穿戴",
+        "穿戴玩法·全局结构",
+        "Personal Profile",
+        "04"
+      ],
+      "media": [
+        "image62.png",
+        "image61.png",
+        "image19.png",
+        "image20.svg",
+        "image83.png"
+      ],
+      "render": "/slides/slide-23.png"
+    },
+    {
+      "number": 24,
+      "group": "equipment",
+      "textBlocks": [
+        "1",
+        "2",
+        "2",
+        "3",
+        "3",
+        "1",
+        "1",
+        "进入不同部位穿戴时，立绘镜头自动适配：如穿戴防具时，镜头聚焦至中间部位",
+        "局部穿戴状态下，可通过右下角按钮返回全局视图",
+        "（其它）支持观赏模式：隐藏UI，进入纯立绘展示，满足玩家观赏需求",
+        "设计原则：镜头自适应 · 路径可逆 · 沉浸体验",
+        "穿戴玩法·沉浸与可逆",
+        "Personal Profile",
+        "04"
+      ],
+      "media": [
+        "image84.png",
+        "image85.png",
+        "image19.png",
+        "image20.svg"
+      ],
+      "render": "/slides/slide-24.png"
+    },
+    {
+      "number": 25,
+      "group": "nsh",
+      "textBlocks": [
+        "Hand-drawn Artwork",
+        "Graphic Works",
+        "Photographic Works",
+        "0",
+        "3",
+        "实战项目",
+        "逆水寒｜游戏交互落地｜资源产出与客户端对接",
+        "three",
+        "I am passionate about the design industry, and I enjoy creating all kinds of beautiful and joyful visuals"
+      ],
+      "media": [
+        "image1.png",
+        "image12.png",
+        "image13.svg",
+        "image14.png",
+        "image15.png",
+        "image16.png",
+        "image25.png",
+        "image3.png",
+        "image4.svg",
+        "image26.png",
+        "image27.svg",
+        "image17.png",
+        "image18.svg",
+        "image10.png",
+        "image11.svg"
+      ],
+      "render": "/slides/slide-25.png"
+    },
+    {
+      "number": 26,
+      "group": "nsh",
+      "textBlocks": [
+        "我的工作流程",
+        "Personal Profile",
+        "01",
+        "Personal Profile",
+        "*01",
+        "*02",
+        "*04",
+        "*03",
+        "拆解策划原始需求，输出模块交互说明文档：定义界面跳转、按钮多状态、结算流程、动效交互描述",
+        "和客户端评审实现方案：针对实现成本和适配做方案权衡",
+        "和美术对齐资源输出规范：界面组件、状态图标、动画表现要求",
+        "版本开发阶段跟进：做可用性走查，校验上线前效果，反馈 bug 与体验问题",
+        "项目背景",
+        "实习期间参与逆水寒多个小型模块迭代，包含炼金鉴宝、兵符台玩法等。这类模块由策划输出核心玩法规则，交互侧主要承担：交互说明文档撰写、美术描述、对接客户端、上线前走查校验"
+      ],
+      "media": [
+        "image1.png",
+        "image19.png",
+        "image20.svg",
+        "image53.png",
+        "image54.svg",
+        "image55.png",
+        "image56.svg",
+        "image31.jpeg"
+      ],
+      "render": "/slides/slide-26.png"
+    },
+    {
+      "number": 27,
+      "group": "nsh",
+      "textBlocks": [
+        "项目展示",
+        "Hand-drawn Artwork",
+        "02",
+        "炼金鉴宝模块（小抽卡玩法）·交互文档",
+        "黄字对应美术要求，蓝字对应客户端",
+        "收获：学会在玩法策划、美术、客户端多方之间做权衡，不是只追求理想化交互，要考虑工程现实约束"
+      ],
+      "media": [
+        "image86.png",
+        "VAHVKZ6RGZg.mp4",
+        "image87.jpeg",
+        "image19.png",
+        "image20.svg",
+        "image55.png",
+        "image56.svg",
+        "image53.png",
+        "image54.svg"
+      ],
+      "render": "/slides/slide-27.png"
+    },
+    {
+      "number": 28,
+      "group": "nsh",
+      "textBlocks": [
+        "项目展示",
+        "Hand-drawn Artwork",
+        "02",
+        "兵符台模块（类似进度条提示玩法）·交互文档",
+        "黄字对应美术要求，蓝字对应客户端",
+        "收获：理解游戏交互从文档输出到客户端上线完整链路，懂得输出文档要兼顾美术理解、开发实现成本"
+      ],
+      "media": [
+        "image88.png",
+        "VAHVKYq9khw.mp4",
+        "image89.jpeg",
+        "image19.png",
+        "image20.svg",
+        "image55.png",
+        "image56.svg",
+        "image53.png",
+        "image54.svg"
+      ],
+      "render": "/slides/slide-28.png"
+    },
+    {
+      "number": 29,
+      "group": "event",
+      "textBlocks": [
+        "Hand-drawn Artwork",
+        "Graphic Works",
+        "Photographic Works",
+        "0",
+        "4",
+        "练习项目",
+        "二次元限时运营活动页交互练习",
+        "I am passionate about the design industry, and I enjoy creating all kinds of beautiful and joyful visuals",
+        "four"
+      ],
+      "media": [
+        "image1.png",
+        "image12.png",
+        "image13.svg",
+        "image14.png",
+        "image15.png",
+        "image16.png",
+        "image25.png",
+        "image3.png",
+        "image4.svg",
+        "image26.png",
+        "image27.svg",
+        "image17.png",
+        "image18.svg",
+        "image10.png",
+        "image11.svg"
+      ],
+      "render": "/slides/slide-29.png"
+    },
+    {
+      "number": 30,
+      "group": "event",
+      "textBlocks": [
+        "题目背景",
+        "二游 春节限时活动。 玩家通过完成每日任务获得活动币，并按进度解锁阶段奖励。活动持续14天，活动结束后活动币清零",
+        "01",
+        "用户场景",
+        "以每日回访玩家为主，单次停留＜2 分钟，玩家诉求；首次进入玩家诉求",
+        "02",
+        "设计目标",
+        "弹窗布局约束下优先回访玩家效率；快速查看进度领奖；兼顾新手理解规则",
+        "03",
+        "题目背景与设计目标",
+        "Personal Profile",
+        "01"
+      ],
+      "media": [
+        "image90.png",
+        "image91.png",
+        "image92.svg",
+        "image93.png",
+        "image94.svg",
+        "image95.png",
+        "image19.png",
+        "image20.svg"
+      ],
+      "render": "/slides/slide-30.png"
+    },
+    {
+      "number": 31,
+      "group": "event",
+      "textBlocks": [
+        "布局判断与信息层级",
+        "Personal Profile",
+        "02",
+        "任务操作模块前置，优先满足回访玩家；立绘承担氛围，而非核心阅读对象",
+        "信息层级重构",
+        "增加动态提示「距离下一奖励还差 X 活动币」，减少玩家自行计算成本",
+        "任务‑奖励联动",
+        "活动截止提醒、背包满奖励转邮箱、任务进度状态可视化",
+        "完备异常兜底"
+      ],
+      "media": [
+        "image96.png",
+        "image19.png",
+        "image20.svg"
+      ],
+      "render": "/slides/slide-31.png"
+    },
+    {
+      "number": 32,
+      "group": "event",
+      "textBlocks": [
+        "背包已满，奖励投递邮箱",
+        "任务主链路三种状态：进行中状态以数值进度明确告知玩家剩余工作量（如\"1/1\"），降低任务理解成本",
+        "活动最后一天，角色气泡轻提醒异常反馈以\"不打断主流程、但明确告知结果\"为设计原则，优先保障玩家对奖励去向、操作结果和活动时效的准确理解",
+        "任务链路与异常场景处理",
+        "Personal Profile",
+        "04",
+        "Personal Profile"
+      ],
+      "media": [
+        "image97.png",
+        "image98.svg",
+        "image99.png",
+        "image100.png",
+        "image101.png",
+        "image19.png",
+        "image20.svg"
+      ],
+      "render": "/slides/slide-32.png"
+    },
+    {
+      "number": 33,
+      "group": "additional",
+      "textBlocks": [
+        "实战项目",
+        "平面作品",
+        "Hand-drawn Artwork",
+        "Graphic Works",
+        "摄影作品",
+        "Photographic Works",
+        "0",
+        "5",
+        "其它项目",
+        "I am passionate about the design industry, and I enjoy creating all kinds of beautiful and joyful visuals",
+        "five"
+      ],
+      "media": [
+        "image1.png",
+        "image12.png",
+        "image13.svg",
+        "image14.png",
+        "image15.png",
+        "image16.png",
+        "image25.png",
+        "image3.png",
+        "image4.svg",
+        "image26.png",
+        "image27.svg",
+        "image17.png",
+        "image18.svg",
+        "image10.png",
+        "image11.svg"
+      ],
+      "render": "/slides/slide-33.png"
+    },
+    {
+      "number": 34,
+      "group": "additional",
+      "textBlocks": [
+        "引擎项目（场景搭建＋简单动画）",
+        "Personal Profile",
+        "01",
+        "解决：全部个人完成，从搭建模型（模型为素材）—氛围灯光渲染—人物骨骼绑定（人物为素材）—动画k帧—输出"
+      ],
+      "media": [
+        "image19.png",
+        "image20.svg",
+        "image102.png"
+      ],
+      "render": "/slides/slide-34.png"
+    },
+    {
+      "number": 35,
+      "group": "additional",
+      "textBlocks": [
+        "板绘练习",
+        "Personal Profile",
+        "01",
+        "个人绘画练习，审美能力补充，非岗位核心产出"
+      ],
+      "media": [
+        "image19.png",
+        "image20.svg",
+        "image103.jpeg",
+        "image104.jpeg",
+        "image105.jpeg"
+      ],
+      "render": "/slides/slide-35.png"
+    },
+    {
+      "number": 36,
+      "group": "thanks",
+      "textBlocks": [
+        "ort",
+        "folio",
+        "「感谢」观看",
+        "@创作者 ——— 杨静熙",
+        "< Design >",
+        "My love for the design industry goes beyond just creating visuals — it's about telling stories through colors, shapes, and emotions.",
+        "< Thanks >",
+        "I am passionate about the design industry, and I enjoy creating all kinds of beautiful and joyful visuals",
+        "Hand-drawn Artwork",
+        "Graphic Works",
+        "Photographic Works"
+      ],
+      "media": [
+        "image1.png",
+        "image2.png",
+        "image3.png",
+        "image4.svg",
+        "image5.png",
+        "image6.png",
+        "image7.svg",
+        "image8.png",
+        "image9.svg",
+        "image10.png",
+        "image11.svg",
+        "image12.png",
+        "image13.svg",
+        "image14.png",
+        "image15.png",
+        "image16.png",
+        "image17.png",
+        "image18.svg"
+      ],
+      "render": "/slides/slide-36.png"
+    }
+  ],
+  "media": [
+    {
+      "filename": "image1.png",
+      "path": "/source-media/image1.png",
+      "extension": ".png",
+      "bytes": 2572244,
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25,
+        26,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image2.png",
+      "path": "/source-media/image2.png",
+      "extension": ".png",
+      "bytes": 59653,
+      "slides": [
+        1,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image3.png",
+      "path": "/source-media/image3.png",
+      "extension": ".png",
+      "bytes": 8833,
+      "slides": [
+        1,
+        4,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image4.svg",
+      "path": "/source-media/image4.svg",
+      "extension": ".svg",
+      "bytes": 29305,
+      "slides": [
+        1,
+        4,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image5.png",
+      "path": "/source-media/image5.png",
+      "extension": ".png",
+      "bytes": 595775,
+      "slides": [
+        1,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image6.png",
+      "path": "/source-media/image6.png",
+      "extension": ".png",
+      "bytes": 4565,
+      "slides": [
+        1,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "VAHVKZ6RGZg.mp4",
+      "path": "/source-media/VAHVKZ6RGZg.mp4",
+      "extension": ".mp4",
+      "bytes": 2486538,
+      "slides": [
+        27
+      ],
+      "status": "direct-video"
+    },
+    {
+      "filename": "image7.svg",
+      "path": "/source-media/image7.svg",
+      "extension": ".svg",
+      "bytes": 6066,
+      "slides": [
+        1,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image8.png",
+      "path": "/source-media/image8.png",
+      "extension": ".png",
+      "bytes": 2335,
+      "slides": [
+        1,
+        16,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image9.svg",
+      "path": "/source-media/image9.svg",
+      "extension": ".svg",
+      "bytes": 3077,
+      "slides": [
+        1,
+        16,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "VAHVKYq9khw.mp4",
+      "path": "/source-media/VAHVKYq9khw.mp4",
+      "extension": ".mp4",
+      "bytes": 2621531,
+      "slides": [
+        28
+      ],
+      "status": "direct-video"
+    },
+    {
+      "filename": "image10.png",
+      "path": "/source-media/image10.png",
+      "extension": ".png",
+      "bytes": 6702,
+      "slides": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image11.svg",
+      "path": "/source-media/image11.svg",
+      "extension": ".svg",
+      "bytes": 2523,
+      "slides": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image12.png",
+      "path": "/source-media/image12.png",
+      "extension": ".png",
+      "bytes": 13610,
+      "slides": [
+        1,
+        3,
+        4,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image13.svg",
+      "path": "/source-media/image13.svg",
+      "extension": ".svg",
+      "bytes": 7415,
+      "slides": [
+        1,
+        3,
+        4,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image14.png",
+      "path": "/source-media/image14.png",
+      "extension": ".png",
+      "bytes": 5397,
+      "slides": [
+        1,
+        3,
+        4,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image15.png",
+      "path": "/source-media/image15.png",
+      "extension": ".png",
+      "bytes": 5317,
+      "slides": [
+        1,
+        3,
+        4,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image16.png",
+      "path": "/source-media/image16.png",
+      "extension": ".png",
+      "bytes": 5092,
+      "slides": [
+        1,
+        3,
+        4,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image17.png",
+      "path": "/source-media/image17.png",
+      "extension": ".png",
+      "bytes": 1661,
+      "slides": [
+        1,
+        4,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image18.svg",
+      "path": "/source-media/image18.svg",
+      "extension": ".svg",
+      "bytes": 1150,
+      "slides": [
+        1,
+        4,
+        13,
+        25,
+        29,
+        33,
+        36
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image19.png",
+      "path": "/source-media/image19.png",
+      "extension": ".png",
+      "bytes": 3939,
+      "slides": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        34,
+        35
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image20.svg",
+      "path": "/source-media/image20.svg",
+      "extension": ".svg",
+      "bytes": 1707,
+      "slides": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        34,
+        35
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image21.png",
+      "path": "/source-media/image21.png",
+      "extension": ".png",
+      "bytes": 55976,
+      "slides": [
+        2
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image22.jpeg",
+      "path": "/source-media/image22.jpeg",
+      "extension": ".jpeg",
+      "bytes": 370109,
+      "slides": [
+        2
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image23.png",
+      "path": "/source-media/image23.png",
+      "extension": ".png",
+      "bytes": 3986,
+      "slides": [
+        3
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image24.svg",
+      "path": "/source-media/image24.svg",
+      "extension": ".svg",
+      "bytes": 1707,
+      "slides": [
+        3
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image25.png",
+      "path": "/source-media/image25.png",
+      "extension": ".png",
+      "bytes": 475291,
+      "slides": [
+        4,
+        13,
+        25,
+        29,
+        33
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image26.png",
+      "path": "/source-media/image26.png",
+      "extension": ".png",
+      "bytes": 1787,
+      "slides": [
+        4,
+        13,
+        25,
+        29,
+        33
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image27.svg",
+      "path": "/source-media/image27.svg",
+      "extension": ".svg",
+      "bytes": 20031,
+      "slides": [
+        4,
+        13,
+        25,
+        29,
+        33
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image28.png",
+      "path": "/source-media/image28.png",
+      "extension": ".png",
+      "bytes": 38093,
+      "slides": [
+        5
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image29.png",
+      "path": "/source-media/image29.png",
+      "extension": ".png",
+      "bytes": 642468,
+      "slides": [
+        5,
+        8
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image30.png",
+      "path": "/source-media/image30.png",
+      "extension": ".png",
+      "bytes": 42518,
+      "slides": [
+        5
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image31.jpeg",
+      "path": "/source-media/image31.jpeg",
+      "extension": ".jpeg",
+      "bytes": 21932,
+      "slides": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        26
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image32.png",
+      "path": "/source-media/image32.png",
+      "extension": ".png",
+      "bytes": 106788,
+      "slides": [
+        7
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image33.png",
+      "path": "/source-media/image33.png",
+      "extension": ".png",
+      "bytes": 11995,
+      "slides": [
+        7
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image34.png",
+      "path": "/source-media/image34.png",
+      "extension": ".png",
+      "bytes": 165171,
+      "slides": [
+        7
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image35.png",
+      "path": "/source-media/image35.png",
+      "extension": ".png",
+      "bytes": 84087,
+      "slides": [
+        7
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image36.png",
+      "path": "/source-media/image36.png",
+      "extension": ".png",
+      "bytes": 121263,
+      "slides": [
+        7
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image37.png",
+      "path": "/source-media/image37.png",
+      "extension": ".png",
+      "bytes": 14620,
+      "slides": [
+        8
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image38.png",
+      "path": "/source-media/image38.png",
+      "extension": ".png",
+      "bytes": 267910,
+      "slides": [
+        8
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image39.png",
+      "path": "/source-media/image39.png",
+      "extension": ".png",
+      "bytes": 11305,
+      "slides": [
+        8
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image40.png",
+      "path": "/source-media/image40.png",
+      "extension": ".png",
+      "bytes": 16879,
+      "slides": [
+        8
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image41.png",
+      "path": "/source-media/image41.png",
+      "extension": ".png",
+      "bytes": 64767,
+      "slides": [
+        9
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image42.png",
+      "path": "/source-media/image42.png",
+      "extension": ".png",
+      "bytes": 10895,
+      "slides": [
+        9
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image43.png",
+      "path": "/source-media/image43.png",
+      "extension": ".png",
+      "bytes": 14241,
+      "slides": [
+        9
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image44.jpeg",
+      "path": "/source-media/image44.jpeg",
+      "extension": ".jpeg",
+      "bytes": 204855,
+      "slides": [
+        9,
+        11
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image45.png",
+      "path": "/source-media/image45.png",
+      "extension": ".png",
+      "bytes": 23090,
+      "slides": [
+        10
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image46.png",
+      "path": "/source-media/image46.png",
+      "extension": ".png",
+      "bytes": 14874,
+      "slides": [
+        10
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image47.png",
+      "path": "/source-media/image47.png",
+      "extension": ".png",
+      "bytes": 2680,
+      "slides": [
+        10
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image48.png",
+      "path": "/source-media/image48.png",
+      "extension": ".png",
+      "bytes": 2553,
+      "slides": [
+        10
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image49.jpeg",
+      "path": "/source-media/image49.jpeg",
+      "extension": ".jpeg",
+      "bytes": 298261,
+      "slides": [
+        10
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image50.png",
+      "path": "/source-media/image50.png",
+      "extension": ".png",
+      "bytes": 491109,
+      "slides": [
+        11
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image51.png",
+      "path": "/source-media/image51.png",
+      "extension": ".png",
+      "bytes": 205321,
+      "slides": [
+        11
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image52.png",
+      "path": "/source-media/image52.png",
+      "extension": ".png",
+      "bytes": 24582,
+      "slides": [
+        11
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image53.png",
+      "path": "/source-media/image53.png",
+      "extension": ".png",
+      "bytes": 4038,
+      "slides": [
+        12,
+        14,
+        26,
+        27,
+        28
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image54.svg",
+      "path": "/source-media/image54.svg",
+      "extension": ".svg",
+      "bytes": 7970,
+      "slides": [
+        12,
+        14,
+        26,
+        27,
+        28
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image55.png",
+      "path": "/source-media/image55.png",
+      "extension": ".png",
+      "bytes": 8056,
+      "slides": [
+        12,
+        14,
+        26,
+        27,
+        28
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image56.svg",
+      "path": "/source-media/image56.svg",
+      "extension": ".svg",
+      "bytes": 34329,
+      "slides": [
+        12,
+        14,
+        26,
+        27,
+        28
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image57.png",
+      "path": "/source-media/image57.png",
+      "extension": ".png",
+      "bytes": 137974,
+      "slides": [
+        15
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image58.png",
+      "path": "/source-media/image58.png",
+      "extension": ".png",
+      "bytes": 99766,
+      "slides": [
+        15
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image59.png",
+      "path": "/source-media/image59.png",
+      "extension": ".png",
+      "bytes": 111963,
+      "slides": [
+        15
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image60.png",
+      "path": "/source-media/image60.png",
+      "extension": ".png",
+      "bytes": 76252,
+      "slides": [
+        16,
+        17
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image61.png",
+      "path": "/source-media/image61.png",
+      "extension": ".png",
+      "bytes": 82737,
+      "slides": [
+        16,
+        23
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image62.png",
+      "path": "/source-media/image62.png",
+      "extension": ".png",
+      "bytes": 90094,
+      "slides": [
+        16,
+        23
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image63.png",
+      "path": "/source-media/image63.png",
+      "extension": ".png",
+      "bytes": 68021,
+      "slides": [
+        16
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image64.png",
+      "path": "/source-media/image64.png",
+      "extension": ".png",
+      "bytes": 74989,
+      "slides": [
+        16,
+        17,
+        18
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image65.png",
+      "path": "/source-media/image65.png",
+      "extension": ".png",
+      "bytes": 73029,
+      "slides": [
+        16,
+        20
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image66.png",
+      "path": "/source-media/image66.png",
+      "extension": ".png",
+      "bytes": 69294,
+      "slides": [
+        17
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image67.png",
+      "path": "/source-media/image67.png",
+      "extension": ".png",
+      "bytes": 81401,
+      "slides": [
+        18,
+        22
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image68.png",
+      "path": "/source-media/image68.png",
+      "extension": ".png",
+      "bytes": 61576,
+      "slides": [
+        19
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image69.png",
+      "path": "/source-media/image69.png",
+      "extension": ".png",
+      "bytes": 57018,
+      "slides": [
+        19
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image70.png",
+      "path": "/source-media/image70.png",
+      "extension": ".png",
+      "bytes": 76010,
+      "slides": [
+        19
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image71.png",
+      "path": "/source-media/image71.png",
+      "extension": ".png",
+      "bytes": 85378,
+      "slides": [
+        19
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image72.png",
+      "path": "/source-media/image72.png",
+      "extension": ".png",
+      "bytes": 100623,
+      "slides": [
+        19
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image73.png",
+      "path": "/source-media/image73.png",
+      "extension": ".png",
+      "bytes": 75150,
+      "slides": [
+        20
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image74.png",
+      "path": "/source-media/image74.png",
+      "extension": ".png",
+      "bytes": 70116,
+      "slides": [
+        21
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image75.png",
+      "path": "/source-media/image75.png",
+      "extension": ".png",
+      "bytes": 72606,
+      "slides": [
+        21
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image76.png",
+      "path": "/source-media/image76.png",
+      "extension": ".png",
+      "bytes": 78625,
+      "slides": [
+        21
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image77.png",
+      "path": "/source-media/image77.png",
+      "extension": ".png",
+      "bytes": 101781,
+      "slides": [
+        21
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image78.png",
+      "path": "/source-media/image78.png",
+      "extension": ".png",
+      "bytes": 74512,
+      "slides": [
+        21
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image79.png",
+      "path": "/source-media/image79.png",
+      "extension": ".png",
+      "bytes": 98728,
+      "slides": [
+        21
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image80.png",
+      "path": "/source-media/image80.png",
+      "extension": ".png",
+      "bytes": 68215,
+      "slides": [
+        22
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image81.png",
+      "path": "/source-media/image81.png",
+      "extension": ".png",
+      "bytes": 57735,
+      "slides": [
+        22
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image82.png",
+      "path": "/source-media/image82.png",
+      "extension": ".png",
+      "bytes": 82440,
+      "slides": [
+        22
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image83.png",
+      "path": "/source-media/image83.png",
+      "extension": ".png",
+      "bytes": 92690,
+      "slides": [
+        23
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image84.png",
+      "path": "/source-media/image84.png",
+      "extension": ".png",
+      "bytes": 92793,
+      "slides": [
+        24
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image85.png",
+      "path": "/source-media/image85.png",
+      "extension": ".png",
+      "bytes": 77019,
+      "slides": [
+        24
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image86.png",
+      "path": "/source-media/image86.png",
+      "extension": ".png",
+      "bytes": 1004899,
+      "slides": [
+        27
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image87.jpeg",
+      "path": "/source-media/image87.jpeg",
+      "extension": ".jpeg",
+      "bytes": 69675,
+      "slides": [
+        27
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image88.png",
+      "path": "/source-media/image88.png",
+      "extension": ".png",
+      "bytes": 1048410,
+      "slides": [
+        28
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image89.jpeg",
+      "path": "/source-media/image89.jpeg",
+      "extension": ".jpeg",
+      "bytes": 55329,
+      "slides": [
+        28
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image90.png",
+      "path": "/source-media/image90.png",
+      "extension": ".png",
+      "bytes": 140685,
+      "slides": [
+        30
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image91.png",
+      "path": "/source-media/image91.png",
+      "extension": ".png",
+      "bytes": 4509,
+      "slides": [
+        30
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image92.svg",
+      "path": "/source-media/image92.svg",
+      "extension": ".svg",
+      "bytes": 1466,
+      "slides": [
+        30
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image93.png",
+      "path": "/source-media/image93.png",
+      "extension": ".png",
+      "bytes": 1332,
+      "slides": [
+        30
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image94.svg",
+      "path": "/source-media/image94.svg",
+      "extension": ".svg",
+      "bytes": 1534,
+      "slides": [
+        30
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image95.png",
+      "path": "/source-media/image95.png",
+      "extension": ".png",
+      "bytes": 716235,
+      "slides": [
+        30
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image96.png",
+      "path": "/source-media/image96.png",
+      "extension": ".png",
+      "bytes": 661443,
+      "slides": [
+        31
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image97.png",
+      "path": "/source-media/image97.png",
+      "extension": ".png",
+      "bytes": 2717,
+      "slides": [
+        32
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image98.svg",
+      "path": "/source-media/image98.svg",
+      "extension": ".svg",
+      "bytes": 1234,
+      "slides": [
+        32
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image99.png",
+      "path": "/source-media/image99.png",
+      "extension": ".png",
+      "bytes": 255107,
+      "slides": [
+        32
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image100.png",
+      "path": "/source-media/image100.png",
+      "extension": ".png",
+      "bytes": 725161,
+      "slides": [
+        32
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image101.png",
+      "path": "/source-media/image101.png",
+      "extension": ".png",
+      "bytes": 519250,
+      "slides": [
+        32
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image102.png",
+      "path": "/source-media/image102.png",
+      "extension": ".png",
+      "bytes": 1222447,
+      "slides": [
+        34
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image103.jpeg",
+      "path": "/source-media/image103.jpeg",
+      "extension": ".jpeg",
+      "bytes": 303622,
+      "slides": [
+        35
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image104.jpeg",
+      "path": "/source-media/image104.jpeg",
+      "extension": ".jpeg",
+      "bytes": 224705,
+      "slides": [
+        35
+      ],
+      "status": "presented-with-source-slide"
+    },
+    {
+      "filename": "image105.jpeg",
+      "path": "/source-media/image105.jpeg",
+      "extension": ".jpeg",
+      "bytes": 348259,
+      "slides": [
+        35
+      ],
+      "status": "presented-with-source-slide"
+    }
+  ]
+}
