@@ -19,7 +19,7 @@ const fragmentShader = `
   }
   float fbm(vec2 p) {
     float value = 0.0; float amplitude = 0.52; mat2 rotation = mat2(0.82, -0.57, 0.57, 0.82);
-    for (int i = 0; i < 5; i++) { value += amplitude * noise(p); p = rotation * p * 2.03 + 13.17; amplitude *= 0.48; }
+    for (int i = 0; i < 4; i++) { value += amplitude * noise(p); p = rotation * p * 2.03 + 13.17; amplitude *= 0.48; }
     return value;
   }
   void main() {
@@ -47,7 +47,7 @@ export default function FluidOrbCanvas() {
     const scene = new THREE.Scene();
     const camera = new THREE.Camera();
     const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true, powerPreference: 'high-performance' });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1));
     mount.appendChild(renderer.domElement);
     const uniforms = { uTime: { value: 0 }, uResolution: { value: new THREE.Vector2(1, 1) }, uPointer: { value: new THREE.Vector2(0.5, 0.5) } };
     const material = new THREE.ShaderMaterial({ vertexShader, fragmentShader, uniforms, transparent: true });
@@ -67,18 +67,28 @@ export default function FluidOrbCanvas() {
       activeUntil = Math.max(activeUntil, performance.now() + duration);
       if (!frame) frame = requestAnimationFrame(draw);
     };
-    const pointer = event => { const rect = mount.getBoundingClientRect(); uniforms.uPointer.value.set((event.clientX - rect.left) / rect.width, 1 - (event.clientY - rect.top) / rect.height); wake(420); };
+    const pointer = event => {
+      if (!visible || document.hidden) return;
+      const rect = mount.getBoundingClientRect();
+      uniforms.uPointer.value.set((event.clientX - rect.left) / rect.width, 1 - (event.clientY - rect.top) / rect.height); wake(420);
+    };
     const onResize = () => { resize(); wake(500); };
     const onScroll = () => wake(300);
     const observer = new IntersectionObserver(entries => {
       visible = entries[0]?.isIntersecting ?? false;
-      if (visible) wake(2200);
+      if (visible && !document.hidden) wake(2200);
       else { activeUntil = 0; cancelAnimationFrame(frame); frame = 0; }
     });
+    const visibility = () => {
+      if (document.hidden) { activeUntil = 0; cancelAnimationFrame(frame); frame = 0; }
+      else if (visible) wake(600);
+    };
     resize(); observer.observe(mount);
     window.addEventListener('resize', onResize); window.addEventListener('scroll', onScroll, { passive: true }); window.addEventListener('pointermove', pointer, { passive: true });
+    document.addEventListener('visibilitychange', visibility);
     return () => {
       cancelAnimationFrame(frame); observer.disconnect(); window.removeEventListener('resize', onResize); window.removeEventListener('scroll', onScroll); window.removeEventListener('pointermove', pointer);
+      document.removeEventListener('visibilitychange', visibility);
       material.dispose(); mesh.geometry.dispose(); renderer.dispose(); renderer.domElement.remove();
     };
   }, []);

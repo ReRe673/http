@@ -19,11 +19,11 @@ export default function ProjectGalleryCanvas({ projects, progressRef, pointerRef
     const camera = new THREE.PerspectiveCamera(42, 1, .1, 30);
     camera.position.z = 6.6;
     renderer.setClearColor(0x000000, 0);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1));
     renderer.outputColorSpace = THREE.SRGBColorSpace;
     mount.appendChild(renderer.domElement);
 
-    const geometry = new THREE.PlaneGeometry(4.15, 2.334, 20, 12);
+    const geometry = new THREE.PlaneGeometry(4.15, 2.334);
     const loader = new THREE.TextureLoader();
     let start = () => {};
     const planes = projects.map(project => {
@@ -36,7 +36,7 @@ export default function ProjectGalleryCanvas({ projects, progressRef, pointerRef
       return { mesh, material, texture };
     });
 
-    let frame = 0; let current = progressRef.current; let previous = current; let velocity = 0;
+    let frame = 0; let current = progressRef.current; let previous = current; let velocity = 0; let pageVisible = !document.hidden;
     const resize = () => {
       const { width, height } = mount.getBoundingClientRect();
       if (!width || !height) return;
@@ -73,12 +73,17 @@ export default function ProjectGalleryCanvas({ projects, progressRef, pointerRef
       const unsettled = Math.abs(target - current) > .001 || Math.abs(velocity) > .0005 || maxMaterialDelta > .002;
       if (unsettled) frame = requestAnimationFrame(draw);
     };
-    start = () => { if (!frame) frame = requestAnimationFrame(draw); };
+    start = () => { if (!frame && pageVisible) frame = requestAnimationFrame(draw); };
     invalidateRef.current = start;
     const onResize = () => { resize(); start(); };
-    resize(); window.addEventListener('resize', onResize); start();
+    const visibility = () => {
+      pageVisible = !document.hidden;
+      if (!pageVisible) { cancelAnimationFrame(frame); frame = 0; }
+      else start();
+    };
+    resize(); window.addEventListener('resize', onResize); document.addEventListener('visibilitychange', visibility); start();
     return () => {
-      cancelAnimationFrame(frame); window.removeEventListener('resize', onResize);
+      cancelAnimationFrame(frame); window.removeEventListener('resize', onResize); document.removeEventListener('visibilitychange', visibility);
       if (invalidateRef.current === start) invalidateRef.current = null;
       planes.forEach(({ material, texture }) => { material.dispose(); texture.dispose(); });
       geometry.dispose(); renderer.dispose(); renderer.domElement.remove();

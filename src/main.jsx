@@ -87,24 +87,30 @@ function CursorLens() {
     const root = document.documentElement;
     const lens = document.querySelector('.cursor-lens');
     const dot = document.querySelector('.cursor-dot');
-    let x = innerWidth / 2; let y = innerHeight / 2; let lx = x; let ly = y; let frame = 0;
+    let x = innerWidth / 2; let y = innerHeight / 2; let lx = x; let ly = y; let frame = 0; let active = false;
     root.classList.add('has-custom-cursor');
     const render = () => {
+      frame = 0;
+      if (!active || document.hidden) return;
       lx += (x - lx) * .18; ly += (y - ly) * .18;
       lens.style.transform = `translate3d(${lx}px,${ly}px,0) translate(-50%,-50%)`;
       dot.style.transform = `translate3d(${x}px,${y}px,0) translate(-50%,-50%)`;
-      frame = requestAnimationFrame(render);
+      if (Math.abs(x - lx) > .1 || Math.abs(y - ly) > .1) frame = requestAnimationFrame(render);
     };
-    const move = event => { x = event.clientX; y = event.clientY; root.classList.add('cursor-active'); };
+    const wake = () => { if (!frame && active && !document.hidden) frame = requestAnimationFrame(render); };
+    const move = event => { x = event.clientX; y = event.clientY; active = true; root.classList.add('cursor-active'); wake(); };
     const over = event => root.classList.toggle('cursor-hover', Boolean(event.target.closest('a, button, [role="button"], input')));
-    const leave = () => root.classList.remove('cursor-active');
+    const pause = () => { active = false; cancelAnimationFrame(frame); frame = 0; root.classList.remove('cursor-active'); };
+    const visibility = () => { if (document.hidden) pause(); };
     window.addEventListener('pointermove', move, { passive: true });
     document.addEventListener('pointerover', over, { passive: true });
-    document.addEventListener('mouseleave', leave);
-    frame = requestAnimationFrame(render);
+    document.addEventListener('mouseleave', pause);
+    window.addEventListener('blur', pause);
+    document.addEventListener('visibilitychange', visibility);
     return () => {
       cancelAnimationFrame(frame); root.classList.remove('has-custom-cursor', 'cursor-active', 'cursor-hover');
-      window.removeEventListener('pointermove', move); document.removeEventListener('pointerover', over); document.removeEventListener('mouseleave', leave);
+      window.removeEventListener('pointermove', move); document.removeEventListener('pointerover', over); document.removeEventListener('mouseleave', pause);
+      window.removeEventListener('blur', pause); document.removeEventListener('visibilitychange', visibility);
     };
   }, []);
   return <><i className="cursor-lens" aria-hidden="true" /><i className="cursor-dot" aria-hidden="true" /></>;
