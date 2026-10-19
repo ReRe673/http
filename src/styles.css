@@ -279,12 +279,9 @@ img, video { display: block; max-width: 100%; }
 .lightbox__close { position: absolute; z-index: 2; right: 22px; top: 16px; border: 0; background: transparent; color: white; cursor: pointer; font-size: 12px; }
 .lightbox img { position: relative; z-index: 1; max-width: 96vw; max-height: calc(100vh - 76px); object-fit: contain; }
 
-.cursor-lens, .cursor-dot { position: fixed; z-index: 140; left: 0; top: 0; pointer-events: none; opacity: 0; }
-.cursor-lens { width: 34px; height: 34px; border: 1px solid color-mix(in srgb, var(--cyan) 80%, var(--ink)); border-radius: 50%; background: color-mix(in srgb, var(--surface) 7%, transparent); backdrop-filter: invert(.04) saturate(1.2); box-shadow: 0 0 18px color-mix(in srgb, var(--cyan) 28%, transparent); transition: width .3s ease, height .3s ease, opacity .2s ease, border-color .25s ease, background .25s ease; }
-.cursor-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--cyan); transition: width .25s ease, height .25s ease, opacity .2s ease, background .25s ease; }
-.cursor-active .cursor-lens, .cursor-active .cursor-dot { opacity: 1; }
-.cursor-hover .cursor-lens { width: 58px; height: 58px; border-color: var(--lavender); background: color-mix(in srgb, var(--lavender) 10%, transparent); }
-.cursor-hover .cursor-dot { width: 8px; height: 8px; background: var(--lavender); }
+.cursor-lens { position: fixed; z-index: 140; left: 0; top: 0; width: 28px; height: 28px; pointer-events: none; opacity: 0; border: 1px solid color-mix(in srgb, var(--cyan) 80%, var(--ink)); border-radius: 50%; background: radial-gradient(circle, var(--cyan) 0 2px, color-mix(in srgb, var(--surface) 7%, transparent) 3px); backdrop-filter: invert(.04) saturate(1.2); box-shadow: 0 0 16px color-mix(in srgb, var(--cyan) 24%, transparent); transition: width .22s ease, height .22s ease, opacity .15s ease, border-color .2s ease, background .2s ease; }
+.cursor-active .cursor-lens { opacity: 1; }
+.cursor-hover .cursor-lens { width: 58px; height: 58px; border-color: var(--lavender); background: radial-gradient(circle, var(--lavender) 0 3px, color-mix(in srgb, var(--lavender) 10%, transparent) 4px); }
 @media (pointer: fine) { .has-custom-cursor, .has-custom-cursor a, .has-custom-cursor button, .has-custom-cursor input, .has-custom-cursor label { cursor: none !important; } }
 
 @keyframes breathe { 50% { transform: scaleX(.4); transform-origin: left; } }
@@ -376,6 +373,6 @@ img, video { display: block; max-width: 100%; }
   .title-burst { display: none; }
   .theme-toggle span, .theme-toggle span::before, .theme-toggle span::after { transition: none; }
   .drawer__wipe, .drawer__panel, .drawer__links a, .menu-button__label i, .menu-button__icon { transition: none; }
-  .cursor-lens, .cursor-dot { display: none; }
+  .cursor-lens { display: none; }
   .block-reveal > span, .story-section__text .slide-label, .story-section__text .source-copy { opacity: 1; transform: none; filter: none; transition: none; }
 }
